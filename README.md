@@ -1,5 +1,5 @@
 # 🔐 Sistema de Autenticação em Python
-
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ## Sobre o projeto
 
 Projeto desenvolvido em Python com o objetivo de construir, de forma incremental, um sistema de autenticação de usuários, aplicando conceitos de desenvolvimento backend e segurança.
