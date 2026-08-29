@@ -1,12 +1,12 @@
 # 🔐 Sistema de Autenticação em Python
 
-## 📖 Sobre o projeto
+## Sobre o projeto
 
 Projeto desenvolvido em Python com o objetivo de construir, de forma incremental, um sistema de autenticação de usuários, aplicando conceitos de desenvolvimento backend e segurança.
 
 O projeto está sendo desenvolvido em diferentes versões, permitindo acompanhar a evolução da aplicação desde um sistema simples executado pelo terminal até uma API REST com recursos de autenticação e segurança.
 
-## 🎯 Objetivos
+## Objetivos
 
 - Praticar programação em Python
 - Desenvolver um sistema de autenticação
@@ -15,7 +15,7 @@ O projeto está sendo desenvolvido em diferentes versões, permitindo acompanhar
 - Desenvolver uma API REST
 - Aplicar novos conceitos de forma incremental a cada versão
 
-## 🚀 Evolução do projeto
+## Evolução do projeto
 
 ### V1.0 — Cadastro e Login
 
@@ -50,7 +50,7 @@ O projeto está sendo desenvolvido em diferentes versões, permitindo acompanhar
 
 ---
 
-## 🛠 Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - Python
 
@@ -67,7 +67,7 @@ projeto-sistema-autenticacao/
 
 > A estrutura será atualizada conforme novas versões forem desenvolvidas.
 
-## 🚀 Como executar
+## Como executar
 
 ### Clonar o repositório
 
@@ -87,7 +87,7 @@ cd projeto-sistema-autenticacao
 python v1_cadastro_login/v1.py
 ```
 
-## 📚 Conceitos praticados
+## Conceitos praticados
 
 - Lógica de programação
 - Variáveis e tipos de dados
@@ -98,7 +98,7 @@ python v1_cadastro_login/v1.py
 - Entrada e saída de dados
 - Autenticação básica
 
-## 🔮 Próximas melhorias
+## Próximas melhorias
 
 - SQLite
 - bcrypt
