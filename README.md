@@ -26,11 +26,11 @@ O projeto está sendo desenvolvido em diferentes versões, permitindo acompanhar
 
 ### V2.0 — SQLite + bcrypt
 
-🚧 Planejado
+🚧 Em desenvolvimento
 
 ### V3.0 — API REST com FastAPI
 
-🚧 Planejado
+🚧 Em desenvolvimento
 
 ### V4.0 — JWT + Autorização
 
