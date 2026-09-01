@@ -1,10 +1,10 @@
 # 🔐 Sistema de Autenticação em Python
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
 ## Sobre o projeto
 
-Projeto desenvolvido em Python com o objetivo de construir, de forma incremental, um sistema de autenticação de usuários, aplicando conceitos de desenvolvimento backend e segurança.
-
-O projeto está sendo desenvolvido em diferentes versões, permitindo acompanhar a evolução da aplicação desde um sistema simples executado pelo terminal até uma API REST com recursos de autenticação e segurança.
+Projeto desenvolvido para praticar conceitos de desenvolvimento e segurança em Python, evoluindo gradualmente por diferentes versões.
 
 ## Objetivos
 
@@ -20,17 +20,25 @@ O projeto está sendo desenvolvido em diferentes versões, permitindo acompanhar
 ### V1.0 — Cadastro e Login
 
 - Cadastro de usuários
-- Login
+- Sistema de login
 - Validação de credenciais
 - Execução pelo terminal
 
 ### V2.0 — SQLite + bcrypt
 
-🚧 Em desenvolvimento
+- Persistência de usuários com SQLite
+- Hash seguro de senhas com bcrypt
+- Validação de credenciais armazenadas no banco
+- Armazenamento dos dados de forma persistente
 
 ### V3.0 — API REST com FastAPI
 
 🚧 Em desenvolvimento
+
+- FastAPI
+- Pydantic
+- Swagger
+- API REST
 
 ### V4.0 — JWT + Autorização
 
@@ -53,16 +61,23 @@ O projeto está sendo desenvolvido em diferentes versões, permitindo acompanhar
 ## Tecnologias utilizadas
 
 - Python
+- SQLite
+- bcrypt
 
-> As demais tecnologias serão adicionadas conforme o projeto evoluir.
+> Outras tecnologias serão adicionadas conforme o projeto evoluir.
 
 ## 📂 Estrutura do projeto
 
 ```text
 projeto-sistema-autenticacao/
 │
-└── v1_cadastro_login/
-    └── v1.py
+├── .gitignore
+│
+├── v1_cadastro_login/
+│   └── v1.py
+│
+└── v2_sqlite_bcrypt/
+    └── v2.py
 ```
 
 > A estrutura será atualizada conforme novas versões forem desenvolvidas.
@@ -87,7 +102,15 @@ cd projeto-sistema-autenticacao
 python v1_cadastro_login/v1.py
 ```
 
+### Executar a V2
+
+```bash
+python v2_sqlite_bcrypt/v2.py
+```
+
 ## Conceitos praticados
+
+### V1.0
 
 - Lógica de programação
 - Variáveis e tipos de dados
@@ -98,10 +121,17 @@ python v1_cadastro_login/v1.py
 - Entrada e saída de dados
 - Autenticação básica
 
+### V2.0
+
+- Banco de dados SQLite
+- Operações SQL
+- Persistência de dados
+- Hash de senhas
+- bcrypt
+- Autenticação com dados armazenados em banco
+
 ## Próximas melhorias
 
-- SQLite
-- bcrypt
 - API REST com FastAPI
 - JWT
 - Refresh Tokens
