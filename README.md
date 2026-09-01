@@ -33,28 +33,27 @@ Projeto desenvolvido para praticar conceitos de desenvolvimento e segurança em 
 
 ### V3.0 — API REST com FastAPI
 
-🚧 Em desenvolvimento
-
-- FastAPI
-- Pydantic
-- Swagger
-- API REST
+- API REST desenvolvida com FastAPI
+- Modelagem e validação de dados com Pydantic
+- Documentação interativa com Swagger
+- Integração com SQLite
+- Endpoints para cadastro e login
 
 ### V4.0 — JWT + Autorização
 
-🚧 Planejado
+ Em desenvolvimento
 
 ### V5.0 — Recuperação de senha
 
-🚧 Planejado
+ Planejado
 
 ### V6.0 — Camada de segurança
 
-🚧 Planejado
+ Planejado
 
 ### V7.0 — Versão final
 
-🚧 Planejado
+ Planejado
 
 ---
 
@@ -63,6 +62,9 @@ Projeto desenvolvido para praticar conceitos de desenvolvimento e segurança em 
 - Python
 - SQLite
 - bcrypt
+- FastAPI
+- Pydantic
+- Uvicorn
 
 > Outras tecnologias serão adicionadas conforme o projeto evoluir.
 
@@ -70,14 +72,18 @@ Projeto desenvolvido para praticar conceitos de desenvolvimento e segurança em 
 
 ```text
 projeto-sistema-autenticacao/
-│
+
 ├── .gitignore
+├── README.md
 │
 ├── v1_cadastro_login/
 │   └── v1.py
 │
-└── v2_sqlite_bcrypt/
-    └── v2.py
+├── v2_sqlite_bcrypt/
+│   └── v2.py
+│
+└── v3_apirest/
+    └── main.py
 ```
 
 > A estrutura será atualizada conforme novas versões forem desenvolvidas.
